@@ -1,26 +1,61 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Logo {
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
+    align-items: center;
 }
 
 .container1 {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 100px 32px 100px;
 }
  .header {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    margin-top: 16px;
  }
 
  a {
     text-decoration: none;
+    color: #f9faf8;
  }
 
  .links {
     list-style-type: none;
     display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+
+ .hero {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .mainText {
+   font-size: 48px;
+   color: #f9faf8;
+   font-weight: 900; 
+ }
+
+ .secondaryText {
+    font-size: 18px;
+    color: #f9faf8;
+ }
+
+ .hero-image {
+    width: 248px;
+    height: 176px;
  }
